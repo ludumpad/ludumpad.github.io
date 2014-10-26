@@ -42,6 +42,10 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 
+.summary {
+    max-width: 290px;
+}
+
 .signature {
     width: 100%;
     position: fixed;
