@@ -21,6 +21,7 @@ h1 {
 }
 
 p {
+    text-align: center;
     font-size: 16px;
 }
 
@@ -34,22 +35,28 @@ a:hover {
     color: #fe0e63;
 }
 
+.ditto {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
 .neon {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin: 120px auto 100px;
 }
 
 .summary {
     max-width: 290px;
+    margin: 0px auto;
+}
+
+.vine-embed {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px;
 }
 
 .signature {
-    width: 100%;
-    position: fixed;
-    bottom: 50px;
+    margin: 100px auto;
     font-size: 14px;
     color: #cccccc;
 }
