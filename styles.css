@@ -60,3 +60,30 @@ a:hover {
     font-size: 14px;
     color: #cccccc;
 }
+
+.ribbon {
+
+    position: absolute;
+    top: 44px;
+    right: -50px;
+    width: 200px;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: #fe0e63;
+    padding: 6px;
+    border: 1px dashed white;
+    outline: 2px solid #fe0e63;
+    z-index: 1;
+}
+
+.ribbon:hover {
+    color: white;
+}
